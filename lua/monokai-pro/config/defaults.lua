@@ -1,4 +1,4 @@
----@alias MonokaiPro.Filter "pro" | "classic" | "octagon" | "machine" | "ristretto" | "spectrum" | "light"
+---@alias MonokaiPro.Filter "pro" | "classic" | "octagon" | "machine" | "ristretto" | "spectrum" | "light" | "sun"
 
 ---@class MonokaiPro.PluginSpec.Lazy
 ---@field event? string|string[] Event(s) to trigger highlight application

@@ -40,7 +40,7 @@ function cache.write(filter, data)
 end
 
 function cache.clear()
-  for _, filter in ipairs({ "pro", "classic", "octagon", "machine", "ristretto", "spectrum", "light" }) do
+  for _, filter in ipairs({ "pro", "classic", "octagon", "machine", "ristretto", "spectrum", "light", "sun" }) do
     pcall(os.remove, cache.file(filter))
   end
 end

@@ -18,9 +18,9 @@ function M.setup(user_config)
   end
 
   -- Handle light background
-  if vim.o.background == "light" and current_config.filter ~= "light" then
-    current_config.filter = "light"
-  end
+  -- if vim.o.background == "light" and current_config.filter ~= "light" then
+  --   current_config.filter = "light"
+  -- end
 end
 
 --- Extend the current configuration (used when switching filters)
@@ -45,7 +45,7 @@ end
 --- Get all available filters
 ---@return MonokaiPro.Filter[]
 function M.get_filters()
-  return { "pro", "classic", "octagon", "machine", "ristretto", "spectrum", "light" }
+  return { "pro", "classic", "octagon", "machine", "ristretto", "spectrum", "light", "sun" }
 end
 
 --- Check if a filter is valid
